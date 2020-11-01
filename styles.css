@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 1000px;
+    height: 1000px;
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.stage0 {
+    background-color: rgba(158, 122, 192, .99);
+}
+
+.stage1 {
+    background-color: green;
+}
+
+.stage3 {
+    background-color: rgb(117, 45, 184);
+}
